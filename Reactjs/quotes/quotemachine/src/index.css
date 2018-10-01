@@ -1,0 +1,62 @@
+body{
+  background-color: #80ced6;
+  height:100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+@font-face{
+  font-family: Raleway;
+  src: url(https://fonts.googleapis.com/css?family=Raleway:400,500)
+}
+#quote-box{
+  font-family: 'Raleway';
+  font-size:1.75em;
+  font-weight: bold;
+  margin:auto;
+  text-align:center;
+  border-radius : 10px;
+  position: relative;
+  background-color: white;
+  display:table;
+  width:50%;
+  padding: 50px 90px;
+}
+#author{
+  position:relative;
+  text-align:right;
+  font-size:0.8em;
+  font-weight:normal;
+  display:block;
+  padding-top:20px;
+  height:auto;
+}
+.fa-twitter-square{
+  position:relative;
+  display:inline;
+  margin-top: 20px;
+  float:left;
+}
+#new-quote{
+  color:white;  
+  
+  float:right;
+  
+  margin-top: 30px;
+  padding: 15px 18px 10px 18px;
+  border:none;
+  border-radius: 8px;
+    
+}
+ .fa-twitter-square::before{   
+font-size: 50px !important ;
+} 
+.fa-twitter-square:hover{
+  opacity:0.7;
+}
+#new-quote:hover{
+  opacity:0.7;
+}
+
+
+ 
