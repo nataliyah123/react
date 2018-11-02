@@ -25,8 +25,8 @@ body{
 	align-items:center;
 	justify-items:center;
 	margin-top: none;
-	max-width:30vw;	
-	min-width: 500px;
+	max-width:20vw;	
+	min-width: 400px;
 	max-height: 50vh;
 	background-color: #005266;
 	grid-template-areas:'grid-keys grid-keys grid-keys'
