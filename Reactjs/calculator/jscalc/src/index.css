@@ -1,0 +1,105 @@
+body{
+	background-color: #002933;
+}
+#display{
+	max-width: 30vw;
+	min-width: 500px;
+	height:50px;
+	box-sizing:border-box;
+	font-size:30px;
+	font-family: 'Stardos Stencil', cursive;
+	margin-bottom: none;
+	border:5px solid #005266;
+	background-color: #00141a;
+	color:#ffc14d;
+}
+
+#root{
+	display:flex;
+	margin:auto;
+	justify-content: center;
+	/*width: 30%;*/
+}
+.grid-container{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	margin-top: none;
+	max-width:30vw;	
+	min-width: 500px;
+	max-height: 50vh;
+	background-color: #005266;
+	grid-template-areas:'grid-keys grid-keys grid-keys'
+                        'grid-keys grid-keys grid-keys'
+                        'grid-keys grid-keys grid-keys' ;
+    /*justify-self:stretch;                        */
+    padding: 10px;
+    padding-right: 15px;
+    row-gap:5px;
+    column-gap:3px;
+    box-sizing:border-box;
+}
+
+.grid-keys{
+	background-color: #ccebff;
+	justify-self:stretch;
+	/*max-width:5fr;*/
+	max-height: 80px;
+	padding: 12px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.grid-keys:hover{
+	transform:scale(1.03);
+	color:#737373;
+}
+.grid-container2{
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	max-width:30vw;
+	min-width: 500px;
+	border:5px solid #005266;
+	grid-template-areas:
+				'extras extras extras extras'
+				'myArea myArea myArea myArea';
+				
+				
+
+	box-sizing:border-box;
+	column-gap:8px;									
+}
+.extras1
+{
+	grid-area:myArea;
+	text-align: center;
+	font-weight: bold;
+	font-size:28px;
+	width:29rem;
+	height:40px;
+	border: 5px solid #005266;
+	box-sizing:border-box;
+	background-color: #476b6b;
+	color:#cccccc;
+}
+
+.extras{
+	padding:15px;
+	text-align: center;
+	justify-self:stretch;	
+	width: 7.2rem;
+	margin:none;
+	font-weight: bold;
+	font-size:15px;
+	box-sizing:border-box;
+	background-color:#669999;
+	color:#cccccc;
+}
+.extras:hover{
+	transform:scale(1.08);
+}
+#clear{
+	background-color: #990000;
+	
+}
